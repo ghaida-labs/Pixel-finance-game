@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Financial Pixel Quest</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- INTRO -->
+<div id="intro">
+  <img src="assets/logo.png" id="logo">
+  <h1>🎮 Financial Pixel Quest</h1>
+  <p>اختياراتك تصنع مستقبلك المالي</p>
+  <button onclick="enterGame()">ابدأ اللعبة</button>
+</div>
+
+<!-- GAME -->
+<div id="game">
+
+  <div id="hud">⭐ النقاط: <span id="score">0</span></div>
+
+  <div id="world">
+
+    <div id="coin"></div>
+    <div id="particles"></div>
+
+    <div id="character"></div>
+
+    <div id="box">
+      <h2 id="q"></h2>
+      <div id="opts"></div>
+    </div>
+
+  </div>
+
+</div>
+
+<!-- WIN -->
+<div id="win"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
